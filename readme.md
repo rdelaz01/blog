@@ -32,3 +32,28 @@ Run the project command to create the project settings
 
 ## Step 7 run server 
     python manage.py runserver 
+
+## Step #8 
+python manage.py startapp NAME_OF_THE_APP
+
+
+# TO LINK PAGES 
+
+## STEP 1
+     Create File.html
+
+
+## STEP 2 
+    Create Class Views.py make sure path is correct to file/folder
+
+## STEP 3
+    create path in urls and import View
+
+## STEP 4 
+
+
+
+## Models in Django 
+when we finish a models structure we need to run these commands in order:
+    1. python manage.py makemigrations
+    2. python manage.py migrate 
