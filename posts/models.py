@@ -14,7 +14,7 @@ class post(models.Model): #OOP (Object Oriented Programing)
     ) #User Model 
 
     def __str__(self):
-        return f"{self.id} - {self.title} - {self.author}"
+        return f"{self.id} - {self.title} by {self.author}"
     
     def get_absolute_url(self):
         return reverse("post_detail", args=[self.id])
