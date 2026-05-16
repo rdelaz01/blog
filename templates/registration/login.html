@@ -2,14 +2,14 @@
 {% load crispy_forms_tags %}
 
 {% block title %}
-    Edit Post
+    Log in
 {% endblock %}
 
 {% block content %}
-    <h1>Edit Post</h1>
+    <h1>Log In</h1>
     <form method="post">
         {% csrf_token %}
         {{ form|crispy }}
-        <input type="submit" value="Edit" class="btn btn-secondary">
+        <input type="submit" value="Log In" class="btn btn-success">
     </form>
 {% endblock %}

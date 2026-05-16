@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    403 Forbidden
+{% endblock %}
+
+{% block content %}
+    <div class="container text-center">
+        <h1><strong>Error 403:</strong>Forbidden</h1>
+        <p>You dont have permission to perform this action.</p>
+        <img src="https://media.licdn.com/dms/image/v2/C5612AQEPXYvuzJ9baA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520181432190?e=2147483647&v=beta&t=45tX8Oj5VMKx3qu7Gw9RTMWgoEONn7Po8xK7r6IR5o0" alt="Meme" class="img-fluid d-block mx-auto my-4" style="max-width: 800px; width: 100%;" />
+        <p><a href="{% url 'home' %}">Click Here</a>  to go Home</p>
+    </div>
+{% endblock %}
